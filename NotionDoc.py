@@ -1,3 +1,6 @@
+NOTION_TOKEN = 'enter your notion Token' 
+DATABASE_ID = 'enter your notion Database id'
+
 from notion_client import Client
 
 notion = Client(auth=NOTION_TOKEN) 
